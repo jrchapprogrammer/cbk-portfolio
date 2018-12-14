@@ -1,157 +1,220 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="language" content="en">
-  <!--EXTERNAL RESOURCES-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,700" rel="stylesheet">
-  <!--INTERNAL FILES-->
-  <script src="js/scroll.js"></script>
-  <script src="js/nav.js"></script>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
+  <head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="language" content="en" />
+    <!-- EXTERNAL RESOURCES -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,700"
+      rel="stylesheet"
+    />
+    <!-- INTERNAL FILES -->
+    <script src="js/scroll.js"></script>
+    <script src="js/nav.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
 
-<body>
-  <nav class="navbar" id="nav">
-    <span id="navbar-toggle">
-          <i class="fa fa-bars"></i>
-      </span>
-    <a href="#" id="logo">Jane Programmer</a>
-    <ul id="main-nav">
-      <li><a href="#about" class="nav-links">About</a></li>
-      <li><a href="#workHeader" class="nav-links">Work</a></li>
-      <li><a href="#contactHeader" class="nav-links">Contact</a></li>
-    </ul>
-  </nav>
-  <header id="hero">
-    <div id="nameOverlay">
-      <div class="name">
-        <h1>Jane Programmer</h1>
+  <body>
+    <nav class="navbar" id="nav">
+      <span id="navbar-toggle"> <i class="fa fa-bars"></i> </span>
+      <a href="#" id="logo">John Chappelle</a>
+      <ul id="main-nav">
+        <li><a href="#about" class="nav-links">About</a></li>
+        <li><a href="#workHeader" class="nav-links">Work</a></li>
+        <li><a href="#contactHeader" class="nav-links">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="hero">
+      <div id="nameOverlay">
+        <div class="name"><h1>John Chappelle</h1></div>
       </div>
-    </div>
-  </header>
-  <main>
-    <section id="about">
-      <div class="content">
-        <h1 class="sectionTitle" style="color: #2A85BC; width: 100%; margin-bottom: 5vh">About Me</h1>
-        <div id="aboutImg">
-          <img src="img/headshot.png" alt="" id="headshot">
-        </div>
-        <div id="aboutText">
-          <p> Vestibulum in efficitur nibh, vel ornare lorem. Proin nec ex cursus, tincidunt leo id, pharetra quam. Etiam suscipit scelerisque arcu vel pretium. Phasellus eu neque id nisi sollicitudin ornare id a velit. Morbi tellus velit, volutpat vel vulputate
-            nec, iaculis eget purus. Vestibulum volutpat consequat erat, tempor porta ipsum interdum vitae. Cras varius imperdiet risus. Pellentesque purus ipsum, eleifend nec auctor et, consectetur id orci. Quisque varius mauris et nisl pharetra euismod.
-          </p>
-          <p> Vestibulum in efficitur nibh, vel ornare lorem. Proin nec ex cursus, tincidunt leo id, pharetra quam. Etiam suscipit scelerisque arcu vel pretium. Phasellus eu neque id nisi sollicitudin ornare id a velit.</p>
-        </div>
-        <div class="aboutGrid">
-          <div class="aboutCol" id="skills">
-            <i class="fas fa-graduation-cap aboutIcon"></i>
-            <h3>My Skills</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
+    </header>
+    <main>
+      <section id="about">
+        <div class="content">
+          <h1
+            class="sectionTitle"
+            style="color: #2A85BC; width: 100%; margin-bottom: 5vh"
+          >
+            About Me
+          </h1>
+          <div id="aboutImg">
+            <img src="img/headshot.png" alt="" id="headshot" />
           </div>
-          <div class="aboutCol" id="interests">
-            <i class="fas fa-laptop-code aboutIcon"></i>
-            <h3>My Interests</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-          </div>
-          <div class="aboutCol" id="hobbies">
-            <i class="fas fa-book-reader aboutIcon"></i>
-            <h3>My Hobbies</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="sectionHeader" id="workHeader">
-      <h2 class="sectionTitle">Work</h2>
-    </div>
-    <section id="work">
-      <!--FIRST PROJECT-->
-      <div class="content" id="exampleWork">
-        <div class="project">
-          <img src="img/work.png" alt="" class="projectImg">
-          <div class="projectDetails">
-            <p class="projectTitle">Project Title</p>
-            <p class="projectDescription">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et tellus consectetur,posuere sapien vitae, lobortis lectus. Vestibulum commodo tristique nibh.
+          <div id="aboutText">
+            <p>
+              I am a front-end web developer, based in Philadelphia. I aim to
+              create solutions to problems using code, with whatever tool best
+              fits the task.
+            </p>
+            <p>
+              I am passionate about learning how things work, from the inside
+              out. As a kid, I took apart nearly anything mechanical, just to
+              understand how it worked. I didn't always get it back together,
+              but this helped shape my approach to learning.
             </p>
           </div>
-        </div>
-        <div class="project">
-          <img src="img/work.png" alt="" class="projectImg">
-          <div class="projectDetails">
-            <p class="projectTitle">Project Title</p>
-            <p class="projectDescription">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et tellus consectetur,posuere sapien vitae, lobortis lectus. Vestibulum commodo tristique nibh.
-            </p>
+          <div class="aboutGrid">
+            <div class="aboutCol" id="skills">
+              <i class="fas fa-graduation-cap aboutIcon"></i>
+              <h3>My Skills</h3>
+              <p>Dynamic Web Development</p>
+              <p>UX-Focused Design</p>
+              <p>Results-oriented Workflow</p>
+            </div>
+            <div class="aboutCol" id="interests">
+              <i class="fas fa-laptop-code aboutIcon"></i>
+              <h3>My Interests</h3>
+              <p>Code</p>
+              <p>Code!</p>
+              <p>Code!!!</p>
+            </div>
+            <div class="aboutCol" id="hobbies">
+              <i class="fas fa-book-reader aboutIcon"></i>
+              <h3>My Hobbies</h3>
+              <p>Making peanut butter sandwiches with my son</p>
+              <p>Listening to podcasts</p>
+              <p>Watching Top Chef</p>
+            </div>
           </div>
         </div>
-        <div class="project">
-          <img src="img/work.png" alt="" class="projectImg">
-          <div class="projectDetails">
-            <p class="projectTitle">Project Title</p>
-            <p class="projectDescription">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et tellus consectetur,posuere sapien vitae, lobortis lectus. Vestibulum commodo tristique nibh.
-            </p>
+      </section>
+      <div class="sectionHeader" id="workHeader">
+        <h2 class="sectionTitle">Work</h2>
+      </div>
+      <section id="work">
+        <!-- FIRST PROJECT -->
+        <div class="content" id="exampleWork">
+          <div class="project">
+            <img src="img/work.png" alt="" class="projectImg" />
+            <div class="projectDetails">
+              <p class="projectTitle">
+                <a
+                  href="https://jrchapprogrammer.github.io/"
+                  target="_blank"
+                  aria-label="Resume"
+                  >Resume</a
+                >
+              </p>
+              <p class="projectDescription">
+                This is my technical resume. It is a static HTML page with CSS.
+                It uses CSS Grid and Flexbox for layout. It is hosted on GitHub
+                Pages.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/work.png" alt="" class="projectImg" />
+            <div class="projectDetails">
+              <p class="projectTitle">
+                <a
+                  href="https://jrchapprogrammer.github.io/Udacity-FEND-Memory-Game/"
+                  target="_blank"
+                  aria-label="Memory Game"
+                  >Memory Game</a
+                >
+              </p>
+              <p class="projectDescription">
+                This is a Udacity course project that utilizes DOM manipulation
+                and Javascript to produce a Concentration-style memory game.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/work.png" alt="" class="projectImg" />
+            <div class="projectDetails">
+              <p class="projectTitle">
+                <a
+                  href="https://jrchapprogrammer.github.io/FEND-Arcade-Game/"
+                  target="_blank"
+                  aria-label="Frogger Clone"
+                  >Frogger Clone</a
+                >
+              </p>
+              <p class="projectDescription">
+                This is a Udacity course project that focuses on Object-Oriented
+                Javascript. It is a Frogger-like game that uses a
+                Javascript-based sprite library and game engine.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/work.png" alt="" class="projectImg" />
+            <div class="projectDetails">
+              <p class="projectTitle">
+                <a
+                  href="https://johnchappelle.me"
+                  target="_blank"
+                  aria-label="John Chappelle"
+                  >John Chappelle</a
+                >
+              </p>
+              <p class="projectDescription">
+                This is my personal website. I used it as an opportunity to
+                learn Vue, a front-end Javascript framework. It is hosted as a
+                statically generated site on Netlify.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="project">
-          <img src="img/work.png" alt="" class="projectImg">
-          <div class="projectDetails">
-            <p class="projectTitle">Project Title</p>
-            <p class="projectDescription">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et tellus consectetur,posuere sapien vitae, lobortis lectus. Vestibulum commodo tristique nibh.
-            </p>
-          </div>
+      </section>
+      <div class="sectionHeader" id="contactHeader">
+        <h2 class="sectionTitle">Contact</h2>
+      </div>
+      <section class="content" id="contact">
+        <div id="contactInfo">
+          <i class="fas fa-envelope" style="font-size: 2em"></i>
+          <h4>jchappelle@codedbykids.com</h4>
         </div>
-      </div>
-
-    </section>
-    <div class="sectionHeader" id="contactHeader">
-      <h2 class="sectionTitle">Contact</h2>
-    </div>
-    <section class="content" id="contact">
-      <div id="contactInfo">
-        <i class="fas fa-envelope" style="font-size: 2em"></i>
-        <h4>email@address.com</h4>
-      </div>
-      <div id="social">
-        <a class="sociali" href="#" target="_blank" aria-label="Twitter">
-          <i class="fab fa-twitter" title="Twitter"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="GitHub">
-          <i class="fab fa-github" title="GitHub"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="YouTube">
-          <i class="fab fa-youtube" title="YouTube"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="Soundcloud">
-          <i class="fab fa-soundcloud" title="Soundcloud"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="Instagram">
-          <i class="fab fa-instagram" title="Instagram"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="Facebook">
-          <i class="fab fa-facebook" title="Facebook"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="LinkedIn">
-          <i class="fab fa-linkedin" title="LinkedIn"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="Twitch">
-            <i class="fab fa-twitch" title="Twitch"></i></a>
-        <a class="sociali" href="#" target="_blank" aria-label="Tumblr">
-              <i class="fab fa-tumblr-square" title="Tumblr"></i></a>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div id="toTop">
-
-    </div>
-  </footer>
-</body>
-
+        <div id="social">
+          <a
+            class="sociali"
+            href="https://www.twitter.com/jrchap82/"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <i class="fab fa-twitter" title="Twitter"></i
+          ></a>
+          <a
+            class="sociali"
+            href="https://www.github.com/jrchapprogrammer/"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github" title="GitHub"></i
+          ></a>
+          <a
+            class="sociali"
+            href="https://www.facebook.com/jchappelleiii"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook" title="Facebook"></i
+          ></a>
+          <a
+            class="sociali"
+            href="https://www.linkedin.com/in/john-chappelle-4b2a0719"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin" title="LinkedIn"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer><div id="toTop"></div></footer>
+  </body>
 </html>
